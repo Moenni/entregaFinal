@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome",
+    "staging": "npx cypress open --e2e -b chrome --config baseUrl=https://pushing-it.vercel.app"
+  }
+}
